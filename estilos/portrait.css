@@ -68,9 +68,13 @@ menu > a > i{
     color: var(--cor00);
 }
 
-section > article{
-    width: 90vw;
-    margin: auto;
+section#container{
+    display: grid;
+    grid-template-columns: auto 95vw auto;
+}
+
+article.grid_article{
+    grid-column: 2 / 3;
 }
 
 h1{
@@ -80,27 +84,15 @@ h1{
     text-align: justify;
 }
 
-.imagem{
-    width: 90vw;
-    aspect-ratio: 16/9;
+article > p{
+    margin: 5px 0px 15px 0px;
+}
+
+div > img {
+    width: 95vw;
+    margin: 15px 0px 15px 0px;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
-    margin: auto;
-}
-
-.paragrafo{
-    text-align: start;
-    width: 90vw;
-    padding: 10px;
-}
-
-#botao{
-    background-color: #06AA48;
-    border-radius: 5px;
-    color: var(--cor00);
-    padding: 5px 10px;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
 }
 
 footer{
