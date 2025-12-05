@@ -45,4 +45,12 @@
         grid-row: 2 / 3;
         border-radius: 5px;
     } 
+
+    .portrait_ocult{
+        display: block;
+    }
+
+    .span_flex{
+        display: none;
+    }
 }

@@ -81,6 +81,10 @@ article.grid_article{
     display: none;
 }
 
+div.container{
+    display: flex;
+}
+
 h1{
     color: var(--cor04);
     margin: 15px 0px;
@@ -97,6 +101,25 @@ div > img {
     margin: 15px 0px 15px 0px;
     aspect-ratio: 16 / 9;
     object-fit: cover;
+}
+
+.div_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.img02{
+    width: 50vw;
+}
+
+.span_flex{
+    width: 50vw;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.portrait_ocult{
+    display: none;
 }
 
 .veja_mais{
